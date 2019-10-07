@@ -1,4 +1,8 @@
 # Service Discovery Client #
+
+## Contributors
+- [Michael List](https://github.com/orgs/protolab-rosenheim/people/Michael-List)
+
 ## Description ##
 Updates the status of the client via OPCUA at the service discovery.
 

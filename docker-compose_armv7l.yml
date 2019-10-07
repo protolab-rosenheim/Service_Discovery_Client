@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+ service_discovery_client:
+  build:
+    context: .
+    dockerfile: Dockerfile_armv7l
+  container_name: service_discovery_client
+  restart: always
+  network_mode: host

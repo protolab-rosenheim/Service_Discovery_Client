@@ -1,0 +1,12 @@
+discovery_server:
+    hostname: servicediscovery.domain.de      # hostname of discovery server
+    port: 4840                                # port of discovery server
+    update_every_sec: 10                      # call discovery server every XX seconds
+
+device:
+    name: notebook001                         # name of device
+    hostname: notebook001.doamin.de           # hostname of device -> set fqdn, other devices use this for network connection
+    device_class: Notebook                    # device_class e.g. saw, carriage,...
+    location:                                 # If not set, we get the location directly from the device via opcua
+    local_opcua_port: 4840                    # Port of local opcua server
+    local_opcua_server: localhost             # Address of local opcua server
